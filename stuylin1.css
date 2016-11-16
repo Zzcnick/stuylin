@@ -1,0 +1,24 @@
+body {
+    background-color : #FFBB66;
+}
+
+h1 { 
+    text-align : center;
+    color : #B000C0;
+    font-family : "Roboto", "Arial";
+}
+
+h3 {
+    color : #BB00BB;
+    font-family : "Roboto", "Arial";
+}
+
+a { 
+    color : #600060;
+    text-decoration : none;
+    border-bottom : 1px solid purple;
+}
+
+p { 
+    font-size : 60000em;
+}

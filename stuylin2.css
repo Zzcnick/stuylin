@@ -1,0 +1,32 @@
+body {
+    background-color : #700070;
+}
+
+h1 { 
+    text-align : center;
+    color : #D08000;
+    font-family : "Roboto Mono", "Courier New";
+    font-size : 4em;
+    text-shadow : 2px 2px 2px #900040;
+}
+
+h3 {
+    color : #BB6600;
+    font-family : "Andale Mono", "Courier New";
+}
+
+a { 
+    color : orange;
+    text-decoration : none;
+    border-bottom : 2px solid orange;
+}
+
+h2 {
+    font-family : "Andale Mono", "Courier New";
+    font-size : 2em;
+}
+
+p { 
+    font-family : "Comic Sans MS", "Tahoma";
+    color : #CC6600;
+}

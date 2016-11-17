@@ -6,6 +6,7 @@ h1 {
     text-align : center;
     color : #B000C0;
     font-family : "Roboto", "Arial";
+    text-shadow : 2px 2px #900040;
 }
 
 h3 {
@@ -16,9 +17,15 @@ h3 {
 a { 
     color : #600060;
     text-decoration : none;
-    border-bottom : 1px solid purple;
+    border-bottom : 2px solid purple;
+}
+
+h2 {
+    font-family : "Garamond", "Georgia", "Times New Roman";
+    font-size : 3em;
 }
 
 p { 
-    font-size : 60000em;
+    font-family : "Helvetica", "Arial";
+    color : #600040;
 }

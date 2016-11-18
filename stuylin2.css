@@ -1,10 +1,29 @@
+.extreme {
+    font-size : 3em;
+    animation-name : colorchange;
+    animation-duration : 2s;
+    animation-iteration-count: infinite;
+}
+
+.navzone {
+    text-align : center;
+}
+
+.prose {
+    margin-left : 20%;
+    margin-right : 20%;
+}
+
+.content {
+    font-family : "Helvetica", "Arial";    
+}
+
 body {
     background-color : #700070;
 }
 
 h1 { 
     text-align : center;
-    color : #D08000;
     font-family : "Roboto Mono", "Courier New";
     font-size : 4em;
     text-shadow : 2px 2px 2px #900040;
@@ -29,4 +48,27 @@ h2 {
 p { 
     font-family : "Comic Sans MS", "Tahoma";
     color : #CC6600;
+}
+
+
+#tehlulz {
+    font-family : "Comic Sans MS", "Comic Sans", "Jokerman", "Sans Serif";
+    font-weight : bold;
+}
+
+#head1 {
+    animation-type : colorchange;
+    animation-duration : 1s;
+    animation-iteration-count : infinite;
+}
+
+@keyframes colorchange {
+    0%   {color : red}
+    14%  {color : orange}
+    28%  {color : yellow}
+    42%  {color : green}
+    56%  {color : lightsteelblue}
+    70%  {color : blue}
+    85%  {color : purple}
+    100% {color : black}
 }

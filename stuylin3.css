@@ -1,0 +1,58 @@
+@font-face {
+    font-family : "Monsterrat";
+    src : url('https://fonts.googleapis.com/css?family=Montserrat') format('truetype');
+}
+
+body {
+    background-color : #3F220F;
+}
+
+p {
+    font-family : "Helvetica", "Arial", "Sans Serif";
+    font-size : 1.1em;
+    margin-left : 25%;
+    margin-right : 25%;
+    color : #E84D1E;
+}
+
+.ghost {
+    opacity : 0.5;
+}
+
+.spoiler {
+    background-color : black;
+    color : black;
+}
+
+.spoiler:hover {
+    background-color : transparent;
+    color : #E84D1E;
+}
+
+#header:hover {
+    text-transform : uppercase;
+}
+
+#header {
+    text-align : center;  
+    margin-left : 35%;
+    margin-right : 35%;
+    padding : 20px;
+    border-radius : 15px 35px;
+    border : 3px solid #772014;
+    font-family : "Monsterrat", "Sans Serif";
+    color : #AF4319;
+    background-color : #19180A;
+    animation-name : autumn-colors;
+    animation-duration : 4s;
+    animation-iteration-count : infinite;
+}
+
+@keyframes autumn-colors {
+    0% {color : #E84D1E}
+    20% {color : #AF4319}
+    40% {color : #772014}
+    60% {color : #3F220F}
+    80% {color : #772014}
+    100% {color : #AF4319}
+}
